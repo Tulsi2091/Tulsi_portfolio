@@ -1,0 +1,18 @@
+@import "tailwindcss";
+/* Premium chip hover */
+.chip {
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.chip:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow:
+    0 6px 16px rgba(176, 137, 104, 0.18),
+    inset 0 0 0 1px rgba(176, 137, 104, 0.25);
+}
+.chip {
+  cursor: default;
+}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

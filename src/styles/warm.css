@@ -1,0 +1,71 @@
+/* src/styles/warm.css */
+:root{
+  --bg0:#fbf7f1;          /* warm ivory */
+  --bg1:#f3ede3;          /* sand */
+  --ink:#141414;          /* near-black */
+  --muted:#4b4b4b;        /* warm gray */
+
+  --card: rgba(255,255,255,.68);
+  --cardBorder: rgba(20,20,20,.08);
+
+  --accent:#b08968;       /* warm tan */
+  --accent2:#d4a373;      /* soft gold */
+}
+
+/* Warm background with soft blobs */
+body{
+  background:
+    radial-gradient(900px 700px at 15% 10%, rgba(212,163,115,.35), transparent 55%),
+    radial-gradient(800px 600px at 80% 20%, rgba(176,137,104,.25), transparent 55%),
+    radial-gradient(900px 700px at 40% 85%, rgba(20,20,20,.06), transparent 55%),
+    linear-gradient(180deg, var(--bg0), var(--bg1));
+  color: var(--ink);
+}
+
+/* Subtle grain (no images) */
+.grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(0,0,0,0.015) 0px,
+      rgba(0,0,0,0.015) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  mix-blend-mode: multiply;
+  opacity: .35;
+}
+
+/* Glass card */
+.glass {
+  background: var(--card);
+  border: 1px solid var(--cardBorder);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 28px;
+  box-shadow:
+    0 18px 60px rgba(20,20,20,.10),
+    0 1px 0 rgba(255,255,255,.6) inset;
+}
+
+/* Accent text */
+.accent { color: var(--accent); }
+
+/* Premium button */
+.btn-premium {
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  color: white;
+  border-radius: 999px;
+  box-shadow: 0 12px 28px rgba(176,137,104,.25);
+}
+
+/* Soft outline button */
+.btn-ghost {
+  border: 1px solid rgba(20,20,20,.12);
+  border-radius: 999px;
+  background: rgba(255,255,255,.55);
+}

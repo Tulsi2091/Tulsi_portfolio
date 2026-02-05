@@ -11,9 +11,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 max-w-none text-base" style={{ color: "var(--muted)" }}>
-            I am a Master’s graduate in Computer Science from Arizona State University (GPA 4.0).
-            I enjoy building scalable software systems and applied AI/ML solutions, especially end-to-end products
-            that combine backend engineering with intelligent data-driven features.
+            A passionate AI/ML engineer with hands-on experience building machine learning and LLM-based systems in production. Currently working as a Machine Learning Engineer Intern at Alkermes, developing clinical report automation using RAG pipelines, Snowflake vector search, and predictive modeling. My background includes NLP research, computer vision projects, and full-stack development with Python, FastAPI, React, and AWS. I enjoy building reliable, applied AI systems that make a real-world impact.
           </p>
 
           
@@ -104,36 +102,6 @@ export default function Home() {
           </p> */}
         </div>
 
-        <div className="mt-8 grid gap-6 md:grid-cols-3">
-          {/* Card 1 */}
-          <div className="glass p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
-            <div className="text-sm font-semibold relative inline-block">
-            Software Engineering
-            <span
-                className="absolute left-0 -bottom-1 h-px w-full"
-                style={{ background: "linear-gradient(90deg, var(--accent), transparent)" }}
-            />
-            </div>
-
-            <p className="mt-3 text-sm leading-relaxed" style={{ color: "var(--muted)" }}>
-              Backend + full-stack development: APIs, data models, clean architecture, and scalable systems.
-            </p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {["JavaScript", "Django", "React", "Node.js", "SQL", "CSS"].map((t) => (
-                <span
-                  key={t}
-                  className="rounded-full px-3 py-1 text-xs"
-                  style={{
-                    border: "1px solid var(--cardBorder)",
-                    background: "rgba(255,255,255,.55)",
-                  }}
-                >
-                  {t}
-                </span>
-              ))}
-            </div>
-          </div>
-
           {/* Card 2 */}
           <div className="glass p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="text-sm font-semibold relative inline-block">
@@ -178,6 +146,35 @@ export default function Home() {
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               {["Python", "Modeling", "Power BI","Prediction", "Metrics"].map((t) => (
+                <span
+                  key={t}
+                  className="rounded-full px-3 py-1 text-xs"
+                  style={{
+                    border: "1px solid var(--cardBorder)",
+                    background: "rgba(255,255,255,.55)",
+                  }}
+                >
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          {/* Card 1 */}
+          <div className="glass p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <div className="text-sm font-semibold relative inline-block">
+            Software Engineering
+            <span
+                className="absolute left-0 -bottom-1 h-px w-full"
+                style={{ background: "linear-gradient(90deg, var(--accent), transparent)" }}
+            />
+            </div>
+
+            <p className="mt-3 text-sm leading-relaxed" style={{ color: "var(--muted)" }}>
+              Backend + full-stack development: APIs, data models, clean architecture, and scalable systems.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {["JavaScript", "Django", "React", "Node.js", "SQL", "CSS"].map((t) => (
                 <span
                   key={t}
                   className="rounded-full px-3 py-1 text-xs"

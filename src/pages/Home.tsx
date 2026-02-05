@@ -11,7 +11,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 max-w-none text-base" style={{ color: "var(--muted)" }}>
-            A passionate AI/ML engineer with hands-on experience building machine learning and LLM-based systems in production. Currently working as a Machine Learning Engineer Intern at Alkermes, developing clinical report automation using RAG pipelines, Snowflake vector search, and predictive modeling. My background includes NLP research, computer vision projects, and full-stack development with Python, FastAPI, React, and AWS. I enjoy building reliable, applied AI systems that make a real-world impact.
+            A passionate AI/ML engineer with hands-on experience building machine learning and LLM-based systems in production. Currently working as a Machine Learning Engineer Intern at Alkermes, developing clinical report automation using RAG pipelines, Snowflake vector search, and predictive modeling. My background includes NLP and computer vision research, and full-stack development with Python, React, backend APIs and AWS. I enjoy building reliable, applied AI systems that make an impact.
           </p>
 
           

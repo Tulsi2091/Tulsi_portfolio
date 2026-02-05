@@ -101,7 +101,7 @@ export default function Home() {
             I build end-to-end products that combine solid software engineering with applied AI/ML.
           </p> */}
         </div>
-
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
           {/* Card 2 */}
           <div className="glass p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="text-sm font-semibold relative inline-block">
@@ -116,7 +116,7 @@ export default function Home() {
               RAG + LLM apps, embeddings, evaluation, and practical AI features that behave reliably in real products.
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
-              {["RAG", "LLMs", "Embeddings", "LangChain","Prompting"].map((t) => (
+              {["RAG", "LLMs", "Embeddings", "LangChain", "Prompting", "GenAI"].map((t) => (
                 <span
                   key={t}
                   className="rounded-full px-3 py-1 text-xs"
@@ -159,7 +159,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-        <div className="mt-8 grid gap-6 md:grid-cols-3">
+        
           {/* Card 1 */}
           <div className="glass p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="text-sm font-semibold relative inline-block">

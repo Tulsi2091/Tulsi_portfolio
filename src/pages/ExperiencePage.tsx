@@ -26,6 +26,7 @@ const experience: Exp[] = [
       "Spearheading development of a clinical report automation Streamlit app using Snowflake AI Cortex, featuring an AI chat assistant that lets medical writers refine section content via prompts, reducing manual drafting effort by 80%.",
       "Designed secure RAG workflows with Snowflake Vector Store, leveraging AWS S3 for intermediate data storage and model prompt testing experiments, achieving >90% summary accuracy.",
       "Integrated LLMs (OpenAI GPT-5, Mistral Large 2, Llama 3.1–70B) to summarize key tables/figures across 10+ sections, and containerized the app using Docker for secure deployment on Snowpark Container Services.",
+      "Conducted ad-hoc statistical analysis and predictive modeling (Elastic Net, Random Forest, Logistic Regression) to identify responders.",
     ],
     tech: [
       "Python",
@@ -62,6 +63,7 @@ const experience: Exp[] = [
     logoAlt: "Nirma University",
     bullets: [
       "Delivered interactive PowerBI dashboards showcasing gender-based language patterns for a university-funded digital humanities research project.",
+      "Co-authored a literature survey paper (manuscript) reviewing 40+ research papers on gendered language in politics.",
       "Orchestrated a tweet analysis pipeline collecting 600k+ multilingual tweets from 523 politicians using SNScrape, profile-based gender tagging, and Google Translate API.",
       "Configured and trained deep learning models (CNN, ANN, LSTM, GRU, RNN) and LLMs (BERT, RoBERTa) to classify sentiment and gendered language in political discourse, achieving up to 86% accuracy.",
     ],

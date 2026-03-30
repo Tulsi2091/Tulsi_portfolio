@@ -18,8 +18,8 @@ const experience: Exp[] = [
   {
     role: "Machine Learning Engineer",
     company: "Alkermes Inc.",
-    location: "Waltham, MA",
-    dates: "Jul 2025 – Present",
+    location: "Remote",
+    dates: "March 2026 – Present",
     logoSrc: "/experience/Alkermes.png", // <-- add your file
     logoAlt: "Alkermes",
     bullets: [
@@ -40,7 +40,7 @@ const experience: Exp[] = [
     role: "Machine Learning Engineer Intern",
     company: "Alkermes Inc.",
     location: "Waltham, MA",
-    dates: "Jul 2025 – Present",
+    dates: "Jul 2025 – Feb 2026",
     logoSrc: "/experience/Alkermes.png", // <-- add your file
     logoAlt: "Alkermes",
     bullets: [

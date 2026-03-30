@@ -16,6 +16,27 @@ type Exp = {
 
 const experience: Exp[] = [
   {
+    role: "Machine Learning Engineer",
+    company: "Alkermes Inc.",
+    location: "Waltham, MA",
+    dates: "Jul 2025 – Present",
+    logoSrc: "/experience/Alkermes.png", // <-- add your file
+    logoAlt: "Alkermes",
+    bullets: [
+      "Developing EEG-based treatment prediction machine learning models (Elastic Net, Random Forest, LightGBM) on 5,000+ patient recordings, applying PCA-based dimensionality reduction to cut feature space by 70% while retaining 95% of variance, improving model training speed by 3x.",
+      "Engineered end-to-end model evaluation infrastructure with cross-validation, SHAP-based explainability reports, and data visualization dashboards, collaborating with a team of 4 data scientists to ensure FDA-compliant, reproducible outputs via MLflow.",
+      ],
+    tech: [
+      "Python",
+      "Machine Learning",
+      "Time Series",
+      "PCA",
+      "Data Visualization",
+      "Data Preprocessing",
+      "MLflow",
+    ],
+  },
+  {
     role: "Machine Learning Engineer Intern",
     company: "Alkermes Inc.",
     location: "Waltham, MA",
@@ -23,10 +44,10 @@ const experience: Exp[] = [
     logoSrc: "/experience/Alkermes.png", // <-- add your file
     logoAlt: "Alkermes",
     bullets: [
-      "Spearheading development of a clinical report automation Streamlit app using Snowflake AI Cortex, featuring an AI chat assistant that lets medical writers refine section content via prompts, reducing manual drafting effort by 80%.",
-      "Designed secure RAG workflows with Snowflake Vector Store, leveraging AWS S3 for intermediate data storage and model prompt testing experiments, achieving >90% summary accuracy.",
-      "Integrated LLMs (OpenAI GPT-5, Mistral Large 2, Llama 3.1–70B) to summarize key tables/figures across 10+ sections, and containerized the app using Docker for secure deployment on Snowpark Container Services.",
-      "Conducted ad-hoc statistical analysis and predictive modeling (Elastic Net, Random Forest, Logistic Regression) to identify responders.",
+      "Spearheaded development of a clinical report automation app using Snowflake AI Cortex, integrating Large Language Models (GPT-5, Llama-3.1-70B, Mistral Large) to auto-generate 10+ structured report sections, cutting drafting time by 80% for a team of 8 medical writers.",
+      "Architected a secure RAG pipeline using Snowflake Vector Store and AWS S3, embedding 1,000+ proprietary clinical documents to enable sub-second semantic retrieval with >90% summary accuracy, serving as a core MLOps component of the production system.",
+      "Designed an LLM-powered chat assistant allowing medical writers to refine report content via natural language prompts, reducing revision cycles by 65% and receiving a 4.7/5 usability score across 3 departments.",
+      "Containerized the AI application using Docker and deployed on Snowpark Container Services with auto-scaling, supporting 15 concurrent users.",
     ],
     tech: [
       "Python",
@@ -47,12 +68,11 @@ const experience: Exp[] = [
     logoSrc: "/experience/STPL.jpeg",
     logoAlt: "Sahajanand Technologies",
     bullets: [
-      "Created a Flask web app for graders to upload diamond images and get automated inclusion detection results, using DynamoDB to store grading metadata for fast retrieval.",
-      "Prototyped defect detection systems using contour-based and segmentation techniques in Python, improving inclusion identification in diamond images to 93% accuracy.",
-      "Customized image-processing pipelines with OpenCV and scikit-image to extract facet and table zones, improving region segmentation and reducing manual inspection overhead.",
-      "Evaluated computer vision techniques (Thresholding, Contours, SIFT, Watershed) across 5k+ diamond images.",
+      "Developed a Computer Vision pipeline for automated diamond inclusion detection using OpenCV and Scikit-image, processing 500+ gemstone images with contour-based and segmentation techniques, improving detection accuracy to 93% versus an 80% manual baseline.",
+      "Applied preprocessing techniques (histogram equalization, noise reduction) to handle variable image quality, and designed image-processing pipelines to extract facet and table zones, reducing region segmentation errors and cutting per-stone inspection time from 8 to under 2 minutes.",
+      "Integrated AWS DynamoDB as the metadata store for grading results, enabling structured querying across 1k+ graded diamonds and reducing data retrieval latency.",
     ],
-    tech: ["Python", "Flask", "DynamoDB", "OpenCV", "scikit-image", "Computer Vision"],
+    tech: ["Python", "Flask", "DynamoDB", "OpenCV", "scikit-image", "Computer Vision", "Image Processing", "Pipelines"],
   },
   {
     role: "Undergraduate Research Intern",
@@ -62,12 +82,12 @@ const experience: Exp[] = [
     logoSrc: "/experience/Nirma.jpg",
     logoAlt: "Nirma University",
     bullets: [
-      "Delivered interactive PowerBI dashboards showcasing gender-based language patterns for a university-funded digital humanities research project.",
+      "Orchestrated a large-scale NLP data pipeline using SNScrape and Google Translate API to collect 600K+ multilingual tweets from 523 politicians across 12 languages for a university-funded digital humanities project.",
       "Co-authored a literature survey paper (manuscript) reviewing 40+ research papers on gendered language in politics.",
-      "Orchestrated a tweet analysis pipeline collecting 600k+ multilingual tweets from 523 politicians using SNScrape, profile-based gender tagging, and Google Translate API.",
-      "Configured and trained deep learning models (CNN, ANN, LSTM, GRU, RNN) and LLMs (BERT, RoBERTa) to classify sentiment and gendered language in political discourse, achieving up to 86% accuracy.",
+      "Fine-tuned Large Language Models (BERT, RoBERTa) and deep learning models (CNN, LSTM, GRU) for sentiment analysis and gendered language classification, with RoBERTa achieving 86% accuracy, a 14 point gain over the CNN baseline.",
+      "Delivered interactive Power BI dashboards visualizing NLP-derived gendered language patterns, contributing to research that won 2nd Prize at Digital Humanities in Oxford Week, judged by Oxford University and Alan Turing Institute researchers.",
     ],
-    tech: ["PowerBI", "Python", "SNScrape", "Google Translate API", "BERT", "RoBERTa", "Deep Learning"],
+    tech: ["PowerBI", "Python", "Natural Language Preocessing", "SNScrape", "Google Translate API", "LLMs", "Deep Learning", "Neural Networks"],
   },
   {
     role: "Software Development Intern",
@@ -77,12 +97,11 @@ const experience: Exp[] = [
     logoSrc: "/experience/Avioryn.jpeg",
     logoAlt: "Avioryn",
     bullets: [
-      'Co-developed key modules for “LivLaundry”, a full-stack laundry logistics platform, including real-time product tracking and OTP-based user authentication using Node.js, MongoDB, and 2Factor API.',
-      "Implemented QR code generation and password recovery in JavaScript, streamlining product handoff and reducing manual tracking errors across partner operations.",
+      "Co-developed core backend modules for 'CleanZone', a laundry logistics platform, using Node.js and MongoDB, enabling real-time order tracking and reducing lost-order support queries across partner operations.",
+      "Implemented OTP-based authentication via the 2Factor API, QR code generation for product handoff, and a password recovery module in JavaScript, securing transactions and streamlining re-engagement for 30+ partner accounts.",
       "Collaborated with 2 UX designers to build data-driven dashboards, optimizing usability for multiple user personas.",
-      "Operated within an Agile team of 5 using ClickUp for task management and Slack for real-time collaboration.",
     ],
-    tech: ["Node.js", "MongoDB", "JavaScript", "2Factor API", "Agile", "ClickUp", "Slack"],
+    tech: ["Node.js", "MongoDB", "JavaScript", "2Factor API", "Backend", "UI/UX", "APIs"],
   },
 ];
 

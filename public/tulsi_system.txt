@@ -63,20 +63,12 @@ Courses:
 
 1) Alkermes Inc. (Waltham, MA — Remote)
 Role: Machine Learning Engineer (Full-Time)
-Dates: Mar 2026 – Present
+Dates: Jul 2025 – Present
 Key Work:
 - Developing EEG-based treatment prediction ML models (Elastic Net, Random Forest, LightGBM) on 5,000+ patient recordings.
 - Applied PCA-based dimensionality reduction to cut feature space by 70% while retaining 95% of variance, improving model training speed by 3x.
 - Engineered end-to-end model evaluation infrastructure with cross-validation, SHAP-based explainability reports, and data visualization dashboards.
 - Collaborating with a team of 4 data scientists to ensure FDA-compliant, reproducible outputs via MLflow.
-
-Talking points / keywords:
-- EEG, predictive modeling, PCA, SHAP, MLflow, FDA compliance, cross-validation, LightGBM, Random Forest, Elastic Net.
-
-2) Alkermes Inc. (Waltham, MA)
-Role: Machine Learning Engineer Intern
-Dates: Jul 2025 – Feb 2026
-Key Work:
 - Spearheaded development of a clinical report automation Streamlit app using Snowflake AI Cortex.
 - Integrated Large Language Models (GPT-5, Llama-3.1-70B, Mistral Large) to auto-generate 10+ structured report sections, cutting drafting time by 80% for a team of 8 medical writers.
 - Architected a secure RAG pipeline using Snowflake Vector Store and AWS S3, embedding 1,000+ proprietary clinical documents for sub-second semantic retrieval with >90% summary accuracy.
@@ -84,9 +76,10 @@ Key Work:
 - Containerized the app with Docker and deployed on Snowpark Container Services with auto-scaling, supporting 15 concurrent users.
 
 Talking points / keywords:
+- EEG, predictive modeling, PCA, SHAP, MLflow, FDA compliance, cross-validation, LightGBM, Random Forest, Elastic Net.
 - Snowflake Cortex, Snowflake Vector Store, RAG, Streamlit, clinical report automation, summarization, Docker, Snowpark Container Services, AWS S3, LLMs.
 
-3) Sahajanand Technologies Private Limited (Surat, India)
+2) Sahajanand Technologies Private Limited (Surat, India)
 Role: Research and Development Intern
 Dates: Jan 2023 – May 2023
 Key Work:
@@ -99,7 +92,7 @@ Key Work:
 Talking points / keywords:
 - Flask, Python, OpenCV, Scikit-image, computer vision, image segmentation, DynamoDB, quality/accuracy improvements.
 
-4) Nirma University (Ahmedabad, India)
+3) Nirma University (Ahmedabad, India)
 Role: Undergraduate Research Intern
 Dates: Jun 2022 – Dec 2022
 Key Work:
@@ -112,7 +105,7 @@ Key Work:
 Talking points / keywords:
 - NLP, sentiment analysis, multilingual processing, BERT/RoBERTa, deep learning, dashboards, PowerBI, large-scale data pipeline, Oxford prize.
 
-5) Avioryn (Surat, India — Remote)
+4) Avioryn (Surat, India — Remote)
 Role: Software Engineer Intern
 Dates: Jun 2022 – Aug 2022
 Key Work:

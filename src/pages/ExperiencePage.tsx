@@ -18,32 +18,13 @@ const experience: Exp[] = [
   {
     role: "Machine Learning Engineer",
     company: "Alkermes Inc.",
-    location: "Remote",
-    dates: "March 2026 – Present",
+    location: "Waltham, MA",
+    dates: "Jul 2025 – Present",
     logoSrc: "/experience/Alkermes.png", // <-- add your file
     logoAlt: "Alkermes",
     bullets: [
       "Developing EEG-based treatment prediction machine learning models (Elastic Net, Random Forest, LightGBM) on 5,000+ patient recordings, applying PCA-based dimensionality reduction to cut feature space by 70% while retaining 95% of variance, improving model training speed by 3x.",
       "Engineered end-to-end model evaluation infrastructure with cross-validation, SHAP-based explainability reports, and data visualization dashboards, collaborating with a team of 4 data scientists to ensure FDA-compliant, reproducible outputs via MLflow.",
-      ],
-    tech: [
-      "Python",
-      "Machine Learning",
-      "Time Series",
-      "PCA",
-      "Data Visualization",
-      "Data Preprocessing",
-      "MLflow",
-    ],
-  },
-  {
-    role: "Machine Learning Engineer Intern",
-    company: "Alkermes Inc.",
-    location: "Waltham, MA",
-    dates: "Jul 2025 – Feb 2026",
-    logoSrc: "/experience/Alkermes.png", // <-- add your file
-    logoAlt: "Alkermes",
-    bullets: [
       "Spearheaded development of a clinical report automation app using Snowflake AI Cortex, integrating Large Language Models (GPT-5, Llama-3.1-70B, Mistral Large) to auto-generate 10+ structured report sections, cutting drafting time by 80% for a team of 8 medical writers.",
       "Architected a secure RAG pipeline using Snowflake Vector Store and AWS S3, embedding 1,000+ proprietary clinical documents to enable sub-second semantic retrieval with >90% summary accuracy, serving as a core MLOps component of the production system.",
       "Designed an LLM-powered chat assistant allowing medical writers to refine report content via natural language prompts, reducing revision cycles by 65% and receiving a 4.7/5 usability score across 3 departments.",
@@ -58,6 +39,12 @@ const experience: Exp[] = [
       "AWS S3",
       "Docker",
       "Snowpark Container Services",
+      "Machine Learning",
+      "Time Series",
+      "PCA",
+      "Data Visualization",
+      "Data Preprocessing",
+      "MLflow",
     ],
   },
   {

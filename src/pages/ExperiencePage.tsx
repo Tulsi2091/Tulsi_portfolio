@@ -51,7 +51,7 @@ const experience: Exp[] = [
     role: "Research and Development Intern",
     company: "Sahajanand Technologies Pvt. Ltd.",
     location: "Surat, India",
-    dates: "Jan 2023 – May 2023",
+    dates: "Jan 2023 – June 2023",
     logoSrc: "/experience/STPL.jpeg",
     logoAlt: "Sahajanand Technologies",
     bullets: [
@@ -65,7 +65,7 @@ const experience: Exp[] = [
     role: "Undergraduate Research Intern",
     company: "Nirma University",
     location: "Ahmedabad, India",
-    dates: "Jun 2022 – Dec 2022",
+    dates: "March 2021 – May 2023",
     logoSrc: "/experience/Nirma.jpg",
     logoAlt: "Nirma University",
     bullets: [

@@ -62,7 +62,7 @@ const experience: Exp[] = [
     tech: ["Python", "Flask", "DynamoDB", "OpenCV", "scikit-image", "Computer Vision", "Image Processing", "Pipelines"],
   },
   {
-    role: "Undergraduate Research Intern",
+    role: "ML Researcher",
     company: "Nirma University",
     location: "Ahmedabad, India",
     dates: "March 2021 – May 2023",

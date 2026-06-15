@@ -16,10 +16,10 @@ type Exp = {
 
 const experience: Exp[] = [
   {
-    role: "Software Development Engineer - AI/ML",
+    role: "Machine Learning Engineer",
     company: "Alkermes Inc.",
     location: "Waltham, MA",
-    dates: "June 2025 – Present",
+    dates: "July 2025 – Present",
     logoSrc: "/experience/Alkermes.png", // <-- add your file
     logoAlt: "Alkermes",
     bullets: [
